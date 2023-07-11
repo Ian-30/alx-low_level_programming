@@ -8,6 +8,19 @@
 #include <fcntl.h>
 #include <unistd.h>
 
+/**
+ * struct copy_struct - Struct for cp
+ *
+ * @from: from file
+ * @to: to file
+ * @rd:read store
+ * @wt:write stode
+ * @from_file:open from file
+ * @to_file: open of to file
+ * @buffer: buffer to read to.
+ *
+ */
+
 typedef struct copy_struct
 {
 	char *from;
